@@ -1,0 +1,203 @@
+    /* VARIABLES */
+    
+     :root {
+        /* --main-text-color : #fff; */
+        /* --main-bg-color : #fff; */
+        /* --main-font-size : 16px; */
+        /* --main-font-weight : 400; */
+        /* --main-line-height : 1.5; */
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    /* GENERAL */
+    
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+    
+    html {
+        height: 100%;
+        box-sizing: border-box;
+    }
+    
+    img {
+        display: block;
+        height: auto;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: "Nunito Sans", "Arial", sans-serif;
+    }
+    /* VISUALLY-HIDDEN */
+    
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+    /* CONTAINER */
+    
+    .container {
+        max-width: 1344px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    /* STICKY-FOOTER */
+    
+    .site-main {
+        flex-grow: 1;
+        background: #FAFAFA;
+    }
+    
+    .site-header {
+        padding: 23px 0;
+    }
+    
+    .site-header__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .site-header__title {
+        font-family: 'Nunito Sans';
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+        color: #111517;
+        margin: 0;
+    }
+    
+    .site-header__end-box {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .site-header__end-img {
+        margin-right: 10.5px;
+    }
+    
+    .site-header__end-text {
+        font-family: 'Nunito Sans';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #111517;
+        margin: 0;
+        cursor: pointer;
+    }
+    
+    .hero-section {
+        padding: 48px 0;
+    }
+    
+    .hero-section__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .site-main__input {
+        padding-top: 19px;
+        padding-bottom: 19px;
+        padding-left: 32px;
+        background-color: #fff;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+        border-radius: 5px;
+        background-image: url(../images/icon-search-black.svg);
+        background-repeat: no-repeat;
+        background-size: left contain;
+        background-position: 32px 20px;
+        width: 480px;
+        padding-left: 74px;
+        outline: none;
+        border: none;
+    }
+    
+    .site-main__input::placeholder {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #848484;
+    }
+    
+    .site-main__select {
+        background: #FFFFFF;
+        box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+    
+    .hero-section__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    
+    .hero-section__item {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+        border-radius: 5px;
+        margin-bottom: 67px;
+    }
+    
+    img {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    
+    .hero-section-item__box {
+        padding: 24px 0 46px 24px;
+    }
+    
+    .hero-section-item__title {
+        font-family: 'Nunito Sans';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 26px;
+        color: #111517;
+        margin: 0;
+    }
+    
+    .hero-section-item__text {
+        font-family: 'Nunito Sans';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #111517;
+    }
+    
+    .child-text {
+        font-family: 'Nunito Sans';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #111517;
+        margin-right: 5px;
+    }

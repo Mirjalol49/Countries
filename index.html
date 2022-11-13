@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
+</head>
+
+<body>
+
+    <!-- Header start -->
+    <header class="site-header">
+        <div class="container">
+            <div class="site-header__wrapper">
+                <h1 class="site-header__title">Where in the world?</h1>
+                <div class="site-header__end-box">
+                    <img class="site-header__end-img" src="./images/halfmoon.svg" alt="halfmoon" width="15" height="13.75">
+                    <p class="site-header__end-text" onclick="myFunction()">Dark Mode</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header finish -->
+
+    <!-- Main start -->
+    <main class="site-main">
+        <!-- Hero section start  -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-section__wrapper">
+                    <input class="site-main__input" type="search" placeholder="Search for a country…">
+                    <select class="site-main__select" name="countries" id="countries">
+                        <option disabled selected hidden>Filter by Region</option>
+                        <option value="africa">Africa</option>
+                        <option value="africa">America</option>
+                        <option value="asia">Asia</option>
+                        <option value="europe">Europe</option>
+                        <option value="ocenia">Oceania</option>
+                    </select>
+                </div>
+                <section class="hero-section__bottom">
+                    <ul class="hero-section__list">
+                        <li class="hero-section__item">
+                            <img src="./images/1.jpg" alt="Germany-flag" width="267" height="160">
+                            <div class="hero-section-item__box">
+                                <h2 class="hero-section-item__title">Germany</h2>
+                                <p class="hero-section-item__text"><span class="child-text">Population:</span>81,770,900</p>
+                                <p class="hero-section-item__text"><span class="child-text">Region:</span>Europe</p>
+                                <p class="hero-section-item__text"><span class="child-text">Capital:</span>Berlin</p>
+                            </div>
+                        </li>
+                        <li class="hero-section__item">
+                            <img src="./images/2.jpg" alt="Germany-flag" width="303" height="160">
+                            <div class="hero-section-item__box">
+                                <h2 class="hero-section-item__title">United States of America</h2>
+                                <p class="hero-section-item__text"><span class="child-text">Population:</span>323,947,000</p>
+                                <p class="hero-section-item__text"><span class="child-text">Region:</span>Americas</p>
+                                <p class="hero-section-item__text"><span class="child-text">Capital:</span>Washington, D.C.</p>
+                            </div>
+                        </li>
+                        <li class="hero-section__item">
+                            <img src="./images/3.jpg" alt="Germany-flag" width="267" height="160">
+                            <div class="hero-section-item__box">
+                                <h2 class="hero-section-item__title">Brazil</h2>
+                                <p class="hero-section-item__text"><span class="child-text">Population:</span>206,135,893</p>
+                                <p class="hero-section-item__text"><span class="child-text">Region:</span>Americas</p>
+                                <p class="hero-section-item__text"><span class="child-text">Capital:</span>Brasília</p>
+                            </div>
+                        </li>
+                        <li class="hero-section__item">
+                            <img src="./images/4.jpg" alt="Germany-flag" width="267" height="160">
+                            <div class="hero-section-item__box">
+                                <h2 class="hero-section-item__title">Iceland</h2>
+                                <p class="hero-section-item__text"><span class="child-text">Population:</span>334,300</p>
+                                <p class="hero-section-item__text"><span class="child-text">Region:</span>Europe</p>
+                                <p class="hero-section-item__text"><span class="child-text">Capital:</span>Reykjavík</p>
+                            </div>
+                        </li>
+                        <li class="hero-section__item">
+                            <img src="./images/5.jpg" alt="Germany-flag" width="267" height="160">
+                            <div class="hero-section-item__box">
+                                <h2 class="hero-section-item__title">Afghanistan</h2>
+                                <p class="hero-section-item__text"><span class="child-text">Population:</span>27,657,145</p>
+                                <p class="hero-section-item__text"><span class="child-text">Region:</span>Aisa</p>
+                                <p class="hero-section-item__text"><span class="child-text">Capital:</span>Kabul</p>
+                            </div>
+                        </li>
+                        <li class="hero-section__item">
+                            <img src="./images/6.jpg" alt="Germany-flag" width="267" height="160">
+                            <div class="hero-section-item__box">
+                                <h2 class="hero-section-item__title">Åland Islands</h2>
+                                <p class="hero-section-item__text"><span class="child-text">Population:</span>28875</p>
+                                <p class="hero-section-item__text"><span class="child-text">Region:</span>Europe</p>
+                                <p class="hero-section-item__text"><span class="child-text">Capital:</span>Mariehamn</p>
+                            </div>
+                        </li>
+                        <li class="hero-section__item">
+                            <img src="./images/7.jpg" alt="Germany-flag" width="267" height="160">
+                            <div class="hero-section-item__box">
+                                <h2 class="hero-section-item__title">Albania</h2>
+                                <p class="hero-section-item__text"><span class="child-text">Population:</span>2,886,026</p>
+                                <p class="hero-section-item__text"><span class="child-text">Region:</span>Europe</p>
+                                <p class="hero-section-item__text"><span class="child-text">Capital:</span>Tirana</p>
+                            </div>
+                        </li>
+                        <li class="hero-section__item">
+                            <img src="./images/8.jpg" alt="Germany-flag" width="267" height="160">
+                            <div class="hero-section-item__box">
+                                <h2 class="hero-section-item__title">Algeria</h2>
+                                <p class="hero-section-item__text"><span class="child-text">Population:</span> 40,400,000</p>
+                                <p class="hero-section-item__text"><span class="child-text">Region:</span>Africa</p>
+                                <p class="hero-section-item__text"><span class="child-text">Capital:</span>Algiers</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+        <!-- Hero section finish  -->
+
+
+
+
+    </main>
+    <!-- Main finish  -->
+
+
+    <!-- Footer start -->
+    <footer class="site-footer">
+
+    </footer>
+    <!-- Footer finish -->
+</body>
+
+</html>
